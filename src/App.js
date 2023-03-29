@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
-import { Navbar } from "./Navbar";
-import { Home } from "./Home";
+import { Navbar } from "./compoments/Navbar/Navbar";
+import { ItemList } from "./compoments/ItemList/ItemList";
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
+      <ItemList />
+      <h1>Home</h1>
     </div>
   );
 }
