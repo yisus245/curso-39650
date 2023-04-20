@@ -1,8 +1,21 @@
-import "./App.css";
-import Home from "./componets/Home/Home";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ItemListContainer from "./components/ItemList/ItemListContainer";
+import { ItemDetailContainer } from "./components/ItemDetail/ItemDetailContainer";
+import { Navbar } from "./components/Navbar/Navbar";
 
 function App() {
-  return <Home />;
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Navbar />}>
+          <Route path="/" element={<ItemListContainer />} />
+          <Route path="/category/:categoryName" element={<ItemListContainer />} />
+          <Route path="/itemDetail/:id" element={<ItemDetailContainer />} />
+          <Route path="*" element={<h1>La ruta no existe</h1>} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
 export default App;
