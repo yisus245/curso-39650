@@ -1,14 +1,8 @@
 import "./App.css";
-import { Navbar } from "./compoments/Navbar/Navbar";
-import { ItemList } from "./compoments/ItemList/ItemList";
+import Home from "./componets/Home/Home";
+
 function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <ItemList />
-      <h1>Home</h1>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;
