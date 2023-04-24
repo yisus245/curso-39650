@@ -1,53 +1,21 @@
-import { Button } from "@mui/material";
-import CartWidget from "../CartWidget/CartWidget";
-import styles from "./Navbar.module.css";
-import { Outlet, Link, useNavigate, NavLink } from "react-router-dom";
-
-export const Navbar = () => {
-  const navigate = useNavigate();
-
+import "./Navbar.css";
+import { Link } from "react-router-dom";
+const Navbar = () => {
   return (
-    <div>
-      <div className={styles.containerNavbar}>
-        <Link to="/">Aca el logo</Link>
-        <ul style={{ display: "flex", gap: "30px" }}>
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              isActive ? styles.active : styles.noActive
-            }
-          >
-            Todas
-          </NavLink>
-          <NavLink
-            to="/category/urbanas"
-            className={({ isActive }) =>
-              isActive ? styles.active : styles.noActive
-            }
-          >
-            Urbanas
-          </NavLink>
-          <NavLink
-            className={({ isActive }) =>
-              isActive ? styles.active : styles.noActive
-            }
-            to="/category/deportivas"
-          >
-            Urbanas
-          </NavLink>
-
-
-          {/* <Button
-            variant="contained"
-            onClick={() => navigate("/category/deportivas")}
-          >
-            Deportivas
-          </Button> */}
-        </ul>
-        <CartWidget />
-      </div>
-
-      <Outlet />
+    <div className="nav-container">
+      <nav className="navbar">
+        <h1 className="navbar-logo">
+          <Link to={"/"}>Tienda</Link>
+        </h1>
+        <Link className="seeCarrito" to={"/cart"}>
+          🛒
+        </Link>
+        <Link className="seeCarrito" to={"/detalles"}>
+          🛒
+        </Link>
+      </nav>
     </div>
   );
 };
+
+export default Navbar;

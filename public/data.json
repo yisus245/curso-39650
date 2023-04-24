@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "jack",
+    "author": "jack",
+    "price": 10,
+    "img": ""
+  },
+  {
+    "id": 2,
+    "name": "zapato",
+    "author": "jack",
+    "price": 10,
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fsp.depositphotos.com%2Fstock-photos%2Fropa-casual.html&psig=AOvVaw3nZHMy9WKK84R3U6g6GSNm&ust=1682449704183000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCMD64dibw_4CFQAAAAAdAAAAABAY"
+  },
+  {
+    "id": 3,
+    "name": "pantalon",
+    "author": "jack",
+    "price": 10,
+    "img": "../src/components/img/banner.jpg"
+  },
+  {
+    "id": 4,
+    "name": "collar",
+    "author": "jack",
+    "price": 10,
+    "img": ""
+  }
+]
