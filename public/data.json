@@ -3,24 +3,28 @@
     "id": 1,
     "name": "jack",
     "price": "10",
-    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.esdesignbarcelona.com%2Factualidad%2Fdiseno-moda%2Fhaz-crecer-tu-marca-de-ropa-frente-la-competencia&psig=AOvVaw0Br5edvdozIuBdTZG-jpF2&ust=1682723663789000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCKiRv6OYy_4CFQAAAAAdAAAAABAH"
+    "img": "https://w7.pngwing.com/pngs/987/597/png-transparent-assorted-color-clothes-on-clothes-rack-t-shirt-clothing-armoires-wardrobes-closet-clothes-hanger-clothing-retail-fashion-top-thumbnail.png",
+    "quanty": 1
   },
   {
     "id": 2,
     "name": "zapato",
     "price": "30",
-    "img": "https://w7.pngwing.com/pngs/987/597/png-transparent-assorted-color-clothes-on-clothes-rack-t-shirt-clothing-armoires-wardrobes-closet-clothes-hanger-clothing-retail-fashion-top-thumbnail.png"
+    "img": "https://w7.pngwing.com/pngs/987/597/png-transparent-assorted-color-clothes-on-clothes-rack-t-shirt-clothing-armoires-wardrobes-closet-clothes-hanger-clothing-retail-fashion-top-thumbnail.png",
+    "quanty": 1
   },
   {
     "id": 3,
     "name": "pantalon",
     "price": "44",
-    "img": "../src/components/img/banner.jpg"
+    "img": "https://w7.pngwing.com/pngs/987/597/png-transparent-assorted-color-clothes-on-clothes-rack-t-shirt-clothing-armoires-wardrobes-closet-clothes-hanger-clothing-retail-fashion-top-thumbnail.png",
+    "quanty": 1
   },
   {
     "id": 4,
     "name": "collar",
     "price": "22",
-    "img": "../src/components/img/banner.jpg"
+    "img": "https://w7.pngwing.com/pngs/987/597/png-transparent-assorted-color-clothes-on-clothes-rack-t-shirt-clothing-armoires-wardrobes-closet-clothes-hanger-clothing-retail-fashion-top-thumbnail.png",
+    "quanty": 1
   }
 ]

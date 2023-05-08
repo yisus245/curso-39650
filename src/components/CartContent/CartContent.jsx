@@ -8,14 +8,18 @@ import "./CartContent.css";
 
 const CartContent = () => {
   const { cart } = useContext(dataContext);
-  return cart.length > 0 ? (
+  return (
     <>
       <Navbar />
-      <CartElements />
-      <CartTotal />
+      {cart.length > 0 ? (
+        <>
+          <CartElements />
+          <CartTotal />
+        </>
+      ) : (
+        <h2 className="cart-message-center">Carrito vacio</h2>
+      )}
     </>
-  ) : (
-    <h2 className="cart-message-center">Carrito vacio</h2>
   );
 };
 
