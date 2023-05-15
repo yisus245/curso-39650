@@ -1,7 +1,0 @@
-.cartContent {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 50px;
-  text-align: center;
-}
